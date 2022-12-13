@@ -23,6 +23,7 @@ Write your code in the `src/index.js` file. The base URL for your API will be
 [http://localhost:3000](http://localhost:3000).
 
 ## Functionalities
+Its work by showing the available tickets and if no tickets available its gives out that its all sold.No available tickets for you.
 
 The user can:
 
