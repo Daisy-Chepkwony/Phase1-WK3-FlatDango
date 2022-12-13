@@ -1,16 +1,16 @@
-// document.addEventListener("DOMContentLoaded", ()=> {
-//     getposters();
-//   });
-//   function getposters() {
-//     fetch("http://localhost:3000/films")
-//       .then((response) => response.json())
-//       .then(movies);
-//   }
-//   function movies(film) {
-//     film.forEach(moviesdets);
-//   }
+document.addEventListener("DOMContentLoaded", ()=> {
+    getAllposters();
+  });
+  function getAllposters() {
+    fetch("http://localhost:3000/films")
+      .then((response) => response.json())
+      .then(movies);
+  }
+  function movies(film) {
+    film.forEach(moviesdata);
+  }
 //   //create a ul and li list for the movie names
-//   function moviesdets(film) {   
+//   function moviesdata(film) {   
 //       const bar=document.querySelector("div#movies-menu");
 //        const barlu=document.createElement("ul");
 //       const barl=document.createElement("li");
