@@ -53,35 +53,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
           })
      
    }
-   //added
- 
-
-//    // create a button that will work on the tickects
-  //  function capacitydetails(film){
-  //     const buttons=document.querySelector("#btn");
-  //     const btns=document.createElement("button");
-  //     buttons.appendChild(btns);
-  //     buttons.addEventListener("click",()=>{
-  //       let bts=document.getElementById("button");
-  //         if  (bts>0){
-  //           document.getElementById("bts").textcontent=bts-1
-  //         }else
-  //         if(parseInt(bts===0)){
-  //           document.getElementById("buyticket")="soldout"
-  //         }
-  //     })
   
-  //  }
-// //   // function moviesmenu(film) {
-// //   //   const bar = document.querySelector("#filmes");
-// //   //   bar.innerHTML = film.title;
-// //   //   const x = document.querySelector(".filmitem");
-// //   //   x.appendChild(bar);
-// //   //   bar.addEventListener("click", (e) => {
-// //   //     movieInfo(film);
-// //   //   });
-// //   // }
-// //   // function ticketdetails(film){
-// //   //     const btn=document.querySelector("#button");
-// //   //     btn.addEventListener("click",()=>{
+   
   
