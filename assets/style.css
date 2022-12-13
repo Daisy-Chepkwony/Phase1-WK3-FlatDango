@@ -7,7 +7,7 @@ body{
     padding: 0;
     background-color: black;
 }
-/* .logo{
+.logo{
     text-align: center;
     background-color:teal;
     color: whitesmoke;
@@ -26,7 +26,7 @@ body{
     
      
 }
-.movie-info{
+/* .movie-info{
     font-size: medium;
     color: gold;
     text-align: center;
@@ -36,8 +36,8 @@ body{
     text-align: left;
 
 
-}
-#name{
+} */
+/* #name{
     position: absolute;
     text-align: center;
     margin-left: 300px;
@@ -48,31 +48,31 @@ body{
     
 }
 #movies-menu{
-    text-align: left;
+    text-align: left; */
     
-}
-#runtime{
+/* } */
+/* #runtime{
     position: absolute;
     text-align: center;
     margin-left: 380px;
     margin-top: 190px;
-    color: goldenrod;
-}
-#showtime{
+    color: goldenrod; */
+/* } */
+/* #showtime{
     position: absolute;
     text-align: center;
     margin-left: 380px;
     margin-top: 210px;
     color: goldenrod;
-}
-#available-tickets{
+} */
+/* #available-tickets{
     position: absolute;
     text-align: center;
     margin-left: 380px;
     margin-top: 230px;
     color:goldenrod;
-}
-#btn{
+} */
+/* #btn{
     position: absolute;
     text-align: center;
     margin-left: 380px;
@@ -82,8 +82,8 @@ body{
     font-size: 22px;
     border-radius: 6px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-  }
-  ul {
+  } */
+  /* ul {
     list-style: none;
     margin: 0;
     padding:0;
