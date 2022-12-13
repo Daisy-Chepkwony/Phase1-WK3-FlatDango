@@ -59,33 +59,8 @@ body{
 
     
 }
-/* #moviestime{ */
-    /* position: absolute; */
-    /* text-align: right; */
-    /* margin-right: 80px; */
-    /* margin-top: 190px; */
-    /* color: black;
-    float: right;
-    direction: ltr;
-    top: 950px; */
 
-/* } */
-/* #displaytime{
-    /* position: absolute; */
-    /* direction: ltr; */
-    /* text-align: center; */
-    /* margin-right: 50px; */
-    /* margin-top: 210px; */
-    /* color: black;
-    float: right; */
-/* }  */ */
-/* #available-tickets{
-    position: absolute;
-    text-align: center;
-    margin-left: 380px;
-    margin-top: 230px;
-    color:black;
-} */
+
 .detailed-info{
     /* text-align: right; */
     position: relative;
