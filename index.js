@@ -9,19 +9,19 @@ document.addEventListener("DOMContentLoaded", ()=> {
   function movies(film) {
     film.forEach(moviesdata);
   }
-//   //create a ul and li list for the movie names
-//   function moviesdata(film) {   
-//       const bar=document.querySelector("div#movies-menu");
-//        const barlu=document.createElement("ul");
-//       const barl=document.createElement("li");
-//       barl.innerHTML=film.title;
-//        barlu.appendChild(barl);
-//        barl.style.cursor="pointer";
-//        bar.appendChild(barlu);
-//        barl.addEventListener("click",()=>{
-//           movieInfo(film);
-//        });
-//   }
+//   // it creates list for the movie names
+  function moviesdata(film) {   
+      const menu=document.querySelector("div#movies-menu");
+       const menuLi=document.createElement("ul");
+      const menuBar=document.createElement("li");
+      barl.innerHTML=film.title;
+       menuLi.appendChild(menuBar);
+       menuBar.style.cursor="pointer";
+       menu.appendChild(menuLi);
+       menuBar.addEventListener("click",()=>{
+          movieInfo(film);
+       });
+  }
 //   //getting the movies info
 //   function movieInfo(film) {
 //      const movie = document.querySelector("#name");
