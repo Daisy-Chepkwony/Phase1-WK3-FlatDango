@@ -1,0 +1,93 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/* .logo{
+    text-align: center;
+    background-color:teal;
+    color: whitesmoke;
+    padding: 0.5cm;
+}
+#posters {
+    height: 400px;
+    width: 50%;
+    display: block;
+    margin-top: 0px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
+     
+}
+.movie-info{
+    font-size: medium;
+    color: gold;
+    text-align: center;
+
+}
+.filmitem{
+    text-align: left;
+
+
+}
+#name{
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 150px;
+    height: 2px;
+    font-weight: 600;
+
+    
+}
+#movies-menu{
+    text-align: left;
+    
+}
+#runtime{
+    position: absolute;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 190px;
+    color: goldenrod;
+}
+#showtime{
+    position: absolute;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 210px;
+    color: goldenrod;
+}
+#available-tickets{
+    position: absolute;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 230px;
+    color:goldenrod;
+}
+#btn{
+    position: absolute;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 250px;
+    color: red;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+
+  }
+  #capcity{
+  } */
