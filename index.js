@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
       const menu=document.querySelector("div#movies-menu");
        const menuLi=document.createElement("ul");
       const menuBar=document.createElement("li");
-      barl.innerHTML=film.title;
+      menuBar.innerHTML=film.title;
        menuLi.appendChild(menuBar);
        menuBar.style.cursor="pointer";
        menu.appendChild(menuLi);
@@ -23,20 +23,20 @@ document.addEventListener("DOMContentLoaded", ()=> {
        });
   }
 //   //getting the movies info
-//   function movieInfo(film) {
-//      const movie = document.querySelector("#name");
-//      movie.innerHTML = film.title;
-//      const image = document.querySelector("#posters");
-//      image.src = film.poster;
-//      const runtime = document.querySelector("#runtime");
-//      runtime.innerHTML = `${film.runtime}MINUTES`;
-//      const showtime = document.querySelector("#showtime");
-//      showtime.innerHTML = film.showtime;
-//     const availabletkts = document.querySelector("#available-tickets");
-//      availabletkts.innerHTML = film.tickets_sold;
-//      const capacity=document.querySelector("#capcity");
-//      capacity.innerHTML=film.capacity;
-//    }
+  function movieInfo(film) {
+     const movie = document.querySelector("#name");
+     movie.innerHTML = film.title;
+     const image = document.querySelector("#posters");
+     image.src = film.poster;
+     const runtime = document.querySelector("#runtime");
+     runtime.innerHTML = `${film.runtime}MINUTES`;
+     const showtime = document.querySelector("#showtime");
+     showtime.innerHTML = film.showtime;
+    const availabletkts = document.querySelector("#available-tickets");
+     availabletkts.innerHTML = film.tickets_sold;
+     const capacity=document.querySelector("#capcity");
+     capacity.innerHTML=film.capacity;
+   }
 //    // create a button that will work on the tickects
 //    function capacitydetails(film){
 //       const buttons=document.querySelector("#btn");
