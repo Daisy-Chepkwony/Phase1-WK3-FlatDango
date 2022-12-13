@@ -59,30 +59,43 @@ body{
 
     
 }
-/* #runtime{
-    position: absolute;
-    text-align: center;
-    margin-left: 380px;
-    margin-top: 190px;
+#runtime{
+    /* position: absolute; */
+    /* text-align: right; */
+    margin-right: 80px;
+    /* margin-top: 190px; */
     color: black;
+    float: right;
+    direction: ltr;
+    top: 950px;
+
 }
 #showtime{
-    position: absolute;
-    text-align: center;
-    margin-left: 380px;
-    margin-top: 210px;
+    /* position: absolute; */
+    direction: ltr;
+    /* text-align: center; */
+    margin-right: 50px;
+    /* margin-top: 210px; */
     color: black;
-} */
-#available-tickets{
+    float: right;
+} 
+/* #available-tickets{
     position: absolute;
     text-align: center;
     margin-left: 380px;
     margin-top: 230px;
     color:black;
-}
+} */
+/* #detailed-info{
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    padding: 84px 14px;
+
+} */
 #btn{
     position: absolute;
-    text-align: center;
+    text-align: left;
     margin-left: 380px;
     margin-top: 250px;
     color: red;
@@ -91,11 +104,11 @@ body{
     border-radius: 6px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
-  ul {
+  /* ul {
     list-style: none;
     margin: 0;
     padding:0;
 
-  }
+  } */
   #capcity{
   }
