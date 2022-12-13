@@ -43,15 +43,23 @@ body{
     margin-left: 300px;
     margin-top: 150px;
     height: 2px;
-    font-weight: 600;
+    font-weight: 600px;
+    padding: 84px 14px;
+    top: 280px;
 
     
 }
 #movies-menu{
     text-align: left;
+    position: absolute;
+    top: 50px;
+    padding: 84px 14px;
+
+
+
     
 }
-#runtime{
+/* #runtime{
     position: absolute;
     text-align: center;
     margin-left: 380px;
@@ -64,7 +72,7 @@ body{
     margin-left: 380px;
     margin-top: 210px;
     color: black;
-}
+} */
 #available-tickets{
     position: absolute;
     text-align: center;
