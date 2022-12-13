@@ -86,14 +86,15 @@ body{
     margin-top: 230px;
     color:black;
 } */
-.details{
+.detailed-info{
     /* text-align: right; */
     position: relative;
     top: 50px;
-    padding: 84px 14px;
+    padding: 304px 54px;
     float: right;
     margin: auto;
     direction: ltr;
+    margin-bottom: 200px;
 
 }
 #btns{
