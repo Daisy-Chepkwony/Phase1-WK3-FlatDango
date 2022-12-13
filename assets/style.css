@@ -37,7 +37,7 @@ body{
 
 
 }
-/* #name{
+#name{
     position: absolute;
     text-align: center;
     margin-left: 300px;
@@ -48,9 +48,9 @@ body{
     
 }
 #movies-menu{
-    text-align: left; */
+    text-align: left;
     
-/* } */
+}
 /* #runtime{
     position: absolute;
     text-align: center;
