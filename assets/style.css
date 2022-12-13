@@ -5,11 +5,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: lavenderblush;
 }
 .logo{
     text-align: center;
-    background-color:teal;
+    background-color:gray;
     color: whitesmoke;
     padding: 0.5cm;
 }
@@ -51,28 +51,28 @@ body{
     text-align: left;
     
 }
-/* #runtime{
+#runtime{
     position: absolute;
     text-align: center;
     margin-left: 380px;
     margin-top: 190px;
-    color: goldenrod; */
-/* } */
-/* #showtime{
+    color: black;
+}
+#showtime{
     position: absolute;
     text-align: center;
     margin-left: 380px;
     margin-top: 210px;
-    color: goldenrod;
-} */
-/* #available-tickets{
+    color: black;
+}
+#available-tickets{
     position: absolute;
     text-align: center;
     margin-left: 380px;
     margin-top: 230px;
-    color:goldenrod;
-} */
-/* #btn{
+    color:black;
+}
+#btn{
     position: absolute;
     text-align: center;
     margin-left: 380px;
@@ -82,7 +82,7 @@ body{
     font-size: 22px;
     border-radius: 6px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-  } */
+  }
   /* ul {
     list-style: none;
     margin: 0;
