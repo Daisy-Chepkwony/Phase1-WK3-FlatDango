@@ -29,19 +29,19 @@ document.addEventListener("DOMContentLoaded", ()=> {
      const image = document.querySelector("#movies");
      image.src = film.poster;
      const moviesTime = document.querySelector("#moviestime");
-     moviesTime.innerHTML = `${film.moviesTime}MINUTES`;
+     moviesTime.innerHTML = `${film.runtime}MINUTES`;
      const displaytime = document.querySelector("#displaytime");
-     displaytime.innerHTML = film.displaytime;
+     displaytime.innerHTML = film.showtime;
     const queuetickets = document.querySelector("#queue-tickets");
     queuetickets.innerHTML = film.tickets_sold;
-     const capacity=document.querySelector("#capcity");
+     const capacity=document.querySelector("#capacity");
      capacity.innerHTML=film.capacity;
      //added
-     const b=document.querySelector("#btns")
+     const book=document.querySelector("#btns")
      const btns=document.createElement("button");
       btns.innerHTML="BookMyShow";
-       btns.id="ticket";
-       b.appendChild(btns);
+       btns.id="available";
+       book.appendChild(btns);
        btns.addEventListener("click",()=>{
             if  (film.tickets_sold< film.capacity){
              film.tickets_sold +=1;
