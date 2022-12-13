@@ -24,7 +24,7 @@ Write your code in the `src/index.js` file. The base URL for your API will be
 
 ## Functionalities
 
-As a user, I can:
+The user can:
 
 1. See the first movie's details, including its **poster, title, runtime,
    showtime, and available tickets** when the page loads. The number of

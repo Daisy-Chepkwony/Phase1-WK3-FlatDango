@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
           moviesAvailable(film);
        });
   }
-//   //getting the movies info
+//   //getting the movies information
   function moviesAvailable(film) {
      const movie = document.querySelector("#moviesName");
      movie.innerHTML = film.title;
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
     queuetickets.innerHTML = film.tickets_sold;
      const capacity=document.querySelector("#capacity");
      capacity.innerHTML=film.capacity;
-     //added
+     //for the button functionalities
      const book=document.querySelector("#btns")
      const btns=document.createElement("button");
       btns.innerHTML="BookMyShow";
