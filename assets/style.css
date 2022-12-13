@@ -13,7 +13,7 @@ body{
     color: whitesmoke;
     padding: 0.5cm;
 }
-#posters {
+#movies {
     height: 400px;
     width: 50%;
     display: block;
@@ -26,7 +26,7 @@ body{
     
      
 }
-.movie-info{
+.theater{
     font-size: medium;
     color: black;
     text-align: center;
@@ -37,7 +37,7 @@ body{
 
 
 }
-#name{
+#moviesName{
     position: absolute;
     text-align: center;
     margin-left: 300px;
@@ -49,7 +49,7 @@ body{
 
     
 }
-#movies-menu{
+#movies-tickets{
     text-align: left;
     position: absolute;
     top: 50px;
@@ -59,7 +59,7 @@ body{
 
     
 }
-/* #runtime{ */
+/* #moviestime{ */
     /* position: absolute; */
     /* text-align: right; */
     /* margin-right: 80px; */
@@ -70,7 +70,7 @@ body{
     top: 950px; */
 
 /* } */
-/* #showtime{
+/* #displaytime{
     /* position: absolute; */
     /* direction: ltr; */
     /* text-align: center; */
@@ -86,21 +86,23 @@ body{
     margin-top: 230px;
     color:black;
 } */
-#details{
-    /* text-align: right;
-    position: absolute; */
+.details{
+    /* text-align: right; */
+    position: relative;
     top: 50px;
     padding: 84px 14px;
     float: right;
+    margin: auto;
+    direction: ltr;
 
 }
-#btn{
-    position: absolute;
+#btns{
+    position: relative;
     text-align: left;
     /* margin-left: 380px;
     margin-top: 250px; */
-    color: red;
-    background-color: white;
+    color: blue;
+    background-color: rgb(255, 255, 255);
     font-size: 22px;
     border-radius: 6px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -113,5 +115,3 @@ body{
     padding:0;
 
   } */
-  #capcity{
-  }
