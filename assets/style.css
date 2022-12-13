@@ -59,26 +59,26 @@ body{
 
     
 }
-#runtime{
+/* #runtime{ */
     /* position: absolute; */
     /* text-align: right; */
-    margin-right: 80px;
+    /* margin-right: 80px; */
     /* margin-top: 190px; */
-    color: black;
+    /* color: black;
     float: right;
     direction: ltr;
-    top: 950px;
+    top: 950px; */
 
-}
-#showtime{
+/* } */
+/* #showtime{
     /* position: absolute; */
-    direction: ltr;
+    /* direction: ltr; */
     /* text-align: center; */
-    margin-right: 50px;
+    /* margin-right: 50px; */
     /* margin-top: 210px; */
-    color: black;
-    float: right;
-} 
+    /* color: black;
+    float: right; */
+/* }  */ */
 /* #available-tickets{
     position: absolute;
     text-align: center;
@@ -86,23 +86,26 @@ body{
     margin-top: 230px;
     color:black;
 } */
-/* #detailed-info{
-    text-align: right;
-    position: absolute;
+#details{
+    /* text-align: right;
+    position: absolute; */
     top: 50px;
     padding: 84px 14px;
+    float: right;
 
-} */
+}
 #btn{
     position: absolute;
     text-align: left;
-    margin-left: 380px;
-    margin-top: 250px;
+    /* margin-left: 380px;
+    margin-top: 250px; */
     color: red;
     background-color: white;
     font-size: 22px;
     border-radius: 6px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    direction: ltr;
+    float: right;
   }
   /* ul {
     list-style: none;
